@@ -17,4 +17,12 @@ RSpec.describe User do
       # Fill in the test
     end
   end
+
+  describe "#username" do
+    it "returns the correct username" do
+      u3 = User.new 'Mothra'
+      expect(u3.username).to eq 'Mothra'
+      # Fill in the test
+    end
+  end
 end
